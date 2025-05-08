@@ -68,22 +68,6 @@ def piechart():
     
 piechart()
 
-def get_subject_wise_performance(students):
-    subject_stats = defaultdict(lambda: {"App": 0, "Pass": 0, "Comp": 0, "Fail": 0})
-
-    for student in students:
-        for subject, mark in student["Marks"].items():
-            subject_stats[subject]["App"] += 1
-
-            grade = student["Grades"].get(subject, "")
-            if grade == "E":
-                subject_stats[subject]["Fail"] += 1
-            elif student["Result"] == "COMP":
-                subject_stats[subject]["Comp"] += 1
-            else:
-                subject_stats[subject]["Pass"] += 1
-
-    return subject_stats
 
 def get_best_in_subject(students):
     top_scores = defaultdict(lambda: {"Score": -1, "Names": []})
@@ -98,39 +82,21 @@ def get_best_in_subject(students):
 
     return top_scores
 
-def get_overall_summary(students):
-    total = len(students)
-    passed = sum(1 for s in students if s["Result"] == "PASS")
-    comp = sum(1 for s in students if s["Result"] == "COMP")
-    failed = sum(1 for s in students if s["Result"] == "ESSENTIAL REPEAT")
-    absent = sum(1 for s in students if s["Result"] == "ABSENT")
+def get_subject_wise_average_from_csv(csv_path="files/students_structured.csv"):
+    subject_totals = defaultdict(int)
+    subject_counts = defaultdict(int)
 
-    percentages = []
-    for s in students:
-        total_marks = sum(s["Marks"].values())
-        count = len(s["Marks"])
-        if count > 0:
-            percentages.append(total_marks / count)
+    with open(csv_path, "r", encoding="utf-8") as csvfile:
+        reader = csv.DictReader(csvfile)
+        for row in reader:
+            marks = eval(row["Marks"])  # Convert string to dictionary
+            for subject_code, score in marks.items():
+                subject_totals[subject_code] += score
+                subject_counts[subject_code] += 1
 
-    school_avg = round(sum(percentages) / len(percentages), 2) if percentages else 0
-    topper = max(percentages) if percentages else 0
-
-    # Band counts
-    bands = {
-        "90%+": sum(1 for p in percentages if p >= 90),
-        "80%+": sum(1 for p in percentages if 80 <= p < 90),
-        "70%+": sum(1 for p in percentages if 70 <= p < 80),
-        "60%+": sum(1 for p in percentages if 60 <= p < 70),
-        "<60%": sum(1 for p in percentages if p < 60),
-        "ABST": absent,
+    subject_averages = {
+        subject: round(subject_totals[subject] / subject_counts[subject], 2)
+        for subject in subject_totals
     }
 
-    return {
-        "Total": total,
-        "Passed": passed,
-        "Comp": comp,
-        "Failed": failed,
-        "Topper": round(topper, 2),
-        "Average": round(school_avg, 2),
-        "Bands": bands,
-    }
+    return subject_averages

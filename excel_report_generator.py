@@ -4,7 +4,7 @@ def generate_excel_report(students, output_path="files/final_output.xlsx"):
     data = []
 
     for student in students:
-        row = [student["Name"]]
+        row = [student["Roll No"], student["Name"]]
         subjects = list(student["Marks"].keys())
         total = 0
         count = 0
@@ -15,7 +15,7 @@ def generate_excel_report(students, output_path="files/final_output.xlsx"):
             grade = student["Grades"].get(sub, "") if sub else ""
 
             # Add to total and count if mark is valid
-            if isinstance(mark, int) or isinstance(mark, float):
+            if isinstance(mark, (int, float)):
                 total += mark
                 count += 1
 
@@ -29,7 +29,7 @@ def generate_excel_report(students, output_path="files/final_output.xlsx"):
         data.append(row)
 
     # Define column headers
-    columns = ["Name"]
+    columns = ["Roll No", "Name"]
     for i in range(1, 6):
         columns += [f"Sub{i}", f"Marks{i}", f"Grade{i}"]
     columns += ["Total", "Percentage", "Result"]

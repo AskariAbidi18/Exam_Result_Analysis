@@ -65,3 +65,5 @@ def process_and_save(input_path="files/raw data.txt", output_path="files/student
     students = parse_raw_data(input_path)
     save_students_to_csv(students, output_path)
     print(f"Saved structured student data to {output_path}")
+
+process_and_save()
