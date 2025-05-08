@@ -9,7 +9,7 @@ def generate_excel_report(students, output_path="files/final_output.xlsx"):
         total = 0
         count = 0
 
-        for idx in range(5):
+        for idx in range(6):
             sub = subjects[idx] if idx < len(subjects) else ""
             mark = student["Marks"].get(sub, "") if sub else ""
             grade = student["Grades"].get(sub, "") if sub else ""
@@ -30,7 +30,7 @@ def generate_excel_report(students, output_path="files/final_output.xlsx"):
 
     # Define column headers
     columns = ["Roll No", "Name"]
-    for i in range(1, 6):
+    for i in range(1, 7):
         columns += [f"Sub{i}", f"Marks{i}", f"Grade{i}"]
     columns += ["Total", "Percentage", "Result"]
 

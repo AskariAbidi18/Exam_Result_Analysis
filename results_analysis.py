@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 from collections import defaultdict
 
 def students_above_95():
+    import ast  # Safer alternative to eval
     above_95 = []
 
     with open("files/students_structured.csv", "r", encoding="utf-8") as csvfile:
@@ -10,14 +11,21 @@ def students_above_95():
         students = [row for row in reader]
 
     for student in students:
-        marks_dict = eval(student["Marks"])
-        total = sum(marks_dict.values())
-        percentage = total / 5
-        if percentage >= 95:
-            above_95.append((student["Name"], percentage))  # ← Use append, not extend
+        try:
+            marks_dict = ast.literal_eval(student["Marks"])  # Safely parse stored string
+            if not marks_dict:
+                continue
+            total = sum(marks_dict.values())
+            percentage = total / len(marks_dict)
+            if percentage >= 95:
+                above_95.append((student["Name"], percentage))
+        except Exception as e:
+            print(f"Skipping student due to error: {e}")
+            continue
 
     above_95.sort(key=lambda x: x[1], reverse=True)
     return above_95
+
 
 def piechart():
     with open("files/students_structured.csv", "r", encoding="utf-8") as csvfile:
