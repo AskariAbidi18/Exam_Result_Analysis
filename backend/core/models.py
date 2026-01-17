@@ -1,8 +1,8 @@
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from typing import List, Dict 
 
 @dataclass
-class Subject_Result:
+class SubjectResult:
     subject_code : str
     subject_name : str | None
     marks : int
@@ -13,7 +13,7 @@ class Student:
     roll_no : str
     name : str
     gender : str
-    subjects : List[Subject_Result] = field(default_factory=list)
+    subjects : List[SubjectResult] = field(default_factory=list)
     result_status : str = "PASS"
 
     def total_marks(self) -> int:
