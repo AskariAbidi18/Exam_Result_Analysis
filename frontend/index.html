@@ -1,15 +1,582 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <input type="file" id="fileInput" />
-<button onclick="upload()">Upload</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Board Exam Result Analyzer</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
 
-<script src="script.js"></script>
-</body>
+      body {
+        font-family:
+          -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+          Cantarell, sans-serif;
+        background: linear-gradient(135deg, #f8fafc 0%, #e0f2fe 100%);
+        min-height: 100vh;
+      }
+
+      .header {
+        position: relative;
+        background: linear-gradient(135deg, #1e3a5f 0%, #2d5a8c 50%, #1e3a5f 100%);
+        color: white;
+        padding: 2.5rem 1.5rem;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      }
+      .header-content {
+        max-width: 1000px;
+        margin: 0 auto;
+      }
+
+      .header-title {
+        display: flex;
+        align-items: center;
+        gap: 1.25rem;
+        margin-bottom: 0.75rem;
+      }
+
+      .header-title h1 {
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: -0.5px;
+      }
+
+      .header-subtitle {
+        color:  #dbeafe;
+        margin-left:0.5rem;
+        font-size: 1rem;
+      }
+
+      .header-logo {
+        position: absolute;
+        left: 1.5rem;   /* aligns with padding */
+        top: 50%;
+        transform: translateY(-50%);
+        width: 150px;      /* Bigger */
+        height: 150px;
+        object-fit: contain;
+        background: transparent;
+        padding: 1px;
+        border-radius: 14px;
+        flex-shrink: 0;   /* Prevent shrinking */
+}
+
+    .submit-btn {
+        background: linear-gradient(135deg, #0947c3, #05257d);
+        color: white;
+        font-weight: 600;
+    }
+
+    .submit-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 20px rgba(37,99,235,0.3);
+}
+
+      .icon {
+        width: 36px;
+        height: 36px;
+      }
+
+      .container {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 3rem 1.5rem;
+      }
+
+      .main-card {
+        background: white;
+        border-radius: 1rem;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        padding: 2rem;
+        border-top: 4px solid #1e3a5f;
+      }
+
+      .upload-area {
+        border: 3px dashed #93c5fd;
+        background: rgba(239, 246, 255, 0.3);
+        border-radius: 0.75rem;
+        padding: 3rem;
+        text-align: center;
+        transition: all 0.3s;
+        cursor: pointer;
+      }
+
+      .upload-area:hover {
+        background: rgba(239, 246, 255, 0.5);
+      }
+
+      .upload-area.file-selected {
+        border-color: #4ade80;
+        background: #f0fdf4;
+      }
+
+      .upload-area.drag-over {
+        border-color: #1e3a5f;
+        background: rgba(30, 58, 95, 0.05);
+        transform: scale(1.02);
+      }
+
+      .upload-icon {
+        width: 64px;
+        height: 64px;
+        margin: 0 auto 1rem;
+        padding: 1rem;
+        border-radius: 50%;
+        background: #dbeafe;
+      }
+
+      .upload-area.file-selected .upload-icon {
+        background: #dcfce7;
+      }
+
+      .upload-icon svg {
+        width: 100%;
+        height: 100%;
+        stroke: #2563eb;
+      }
+
+      .upload-area.file-selected .upload-icon svg {
+        stroke: #16a34a;
+      }
+
+      .upload-text {
+        margin: 1rem 0;
+      }
+
+      .upload-title {
+        font-size: 1.125rem;
+        font-weight: 600;
+        color: #374151;
+        margin-bottom: 0.5rem;
+      }
+
+      .file-info {
+        color: #4b5563;
+        margin: 0.5rem 0;
+      }
+
+      .file-name {
+        color: #16a34a;
+        font-weight: 600;
+        margin: 0.5rem 0;
+      }
+
+      .file-size {
+        color: #6b7280;
+        font-size: 0.875rem;
+      }
+
+      .browse-btn {
+        display: inline-block;
+        padding: 0.75rem 1.5rem;
+        background: #1e3a5f;
+        color: white;
+        border-radius: 0.5rem;
+        font-weight: 500;
+        cursor: pointer;
+        transition: background 0.3s;
+        margin: 1rem 0;
+      }
+
+      .browse-btn:hover {
+        background: #2d5a8c;
+      }
+
+      .file-input {
+        display: none;
+      }
+
+      .hint-text {
+        color: #6b7280;
+        font-size: 0.875rem;
+        margin-top: 1rem;
+      }
+
+      .message {
+        margin-top: 1.5rem;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        display: flex;
+        align-items: flex-start;
+        gap: 0.75rem;
+      }
+
+      .message.error {
+        background: #fef2f2;
+        border: 1px solid #fecaca;
+        color: #991b1b;
+      }
+
+      .message.success {
+        background: #f0fdf4;
+        border: 1px solid #bbf7d0;
+        color: #166534;
+      }
+
+      .message.info {
+        background: #eff6ff;
+        border: 1px solid #bfdbfe;
+        color: #1e40af;
+      }
+
+      .message-icon {
+        width: 20px;
+        height: 20px;
+        flex-shrink: 0;
+        margin-top: 0.125rem;
+      }
+
+      .submit-btn {
+        width: 100%;
+        padding: 1rem;
+        margin-top: 2rem;
+        background: linear-gradient(90deg, #1e3a5f 0%, #2d5a8c 100%);
+        color: white;
+        border: none;
+        border-radius: 0.5rem;
+        font-size: 1.125rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.75rem;
+      }
+
+      .submit-btn:hover:not(:disabled) {
+        background: linear-gradient(90deg, #2d5a8c 0%, #1e3a5f 100%);
+        transform: translateY(-2px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+      }
+
+      .submit-btn:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+      }
+
+      .spinner {
+        width: 20px;
+        height: 20px;
+        border: 3px solid white;
+        border-top-color: transparent;
+        border-radius: 50%;
+        animation: spin 0.6s linear infinite;
+      }
+
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
+      .features {
+        margin-top: 3rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1.5rem;
+      }
+
+      .feature-card {
+        background: white;
+        padding: 1.5rem;
+        border-radius: 0.75rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
+        border-left: 4px solid;
+      }
+
+      .feature-card:nth-child(1) {
+        border-color: #3b82f6;
+      }
+      .feature-card:nth-child(2) {
+        border-color: #10b981;
+      }
+      .feature-card:nth-child(3) {
+        border-color: #8b5cf6;
+      }
+
+      .feature-title {
+        font-weight: bold;
+        font-size: 1.125rem;
+        color: #1e3a5f;
+        margin-bottom: 0.5rem;
+      }
+
+      .feature-text {
+        color: #4b5563;
+        font-size: 0.875rem;
+      }
+
+      @media (max-width: 768px) {
+        .header-title h1 {
+          font-size: 1.5rem;
+        }
+
+        .upload-area {
+          padding: 2rem 1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-content">
+        <div class="header-title">
+          <img src="jba_logo.png" alt="JBA Logo" class="header-logo" />
+          <svg
+            class="icon"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+            ></path>
+          </svg>
+          <h1>Board Exam Result Analyzer</h1>
+        </div>
+        <p class="header-subtitle">
+          Upload your raw data and get comprehensive analysis reports
+        </p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="main-card">
+        <div class="upload-area" id="uploadArea">
+          <div class="upload-icon" id="uploadIcon">
+            <svg
+              id="uploadSvg"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"
+              ></path>
+            </svg>
+          </div>
+
+          <div class="upload-text" id="uploadText">
+            <p class="upload-title" id="uploadTitle">Drag & drop your text file here</p>
+            <p class="file-info" id="fileInfo">or</p>
+            <p class="file-name" id="fileName" style="display: none;"></p>
+          </div>
+
+          <label class="browse-btn" id="browseBtn">
+            <input
+              type="file"
+              class="file-input"
+              id="fileInput"
+              accept=".txt"
+            />
+            <span id="btnText">Browse Files</span>
+          </label>
+
+          <p class="hint-text">Supported format: .txt</p>
+        </div>
+
+        <div id="messageArea"></div>
+
+        <button class="submit-btn" id="submitBtn" disabled>
+          <svg
+            width="24"
+            height="24"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+            ></path>
+          </svg>
+          <span id="submitText">Generate Analysis Report</span>
+        </button>
+      </div>
+
+      <div class="features">
+        <div class="feature-card">
+          <h3 class="feature-title">Result Summary</h3>
+          <p class="feature-text">
+            Get comprehensive statistics and overall performance metrics
+          </p>
+        </div>
+        <div class="feature-card">
+          <h3 class="feature-title">Top Performers</h3>
+          <p class="feature-text">
+            Identify and celebrate the best performing students
+          </p>
+        </div>
+        <div class="feature-card">
+          <h3 class="feature-title">Subject Analysis</h3>
+          <p class="feature-text">
+            Detailed breakdown of performance across all subjects
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const fileInput = document.getElementById("fileInput");
+      const submitBtn = document.getElementById("submitBtn");
+      const messageArea = document.getElementById("messageArea");
+      const uploadArea = document.getElementById("uploadArea");
+      const fileName = document.getElementById("fileName");
+      const fileInfo = document.getElementById("fileInfo");
+      const uploadTitle = document.getElementById("uploadTitle");
+      const submitText = document.getElementById("submitText");
+
+      // File input change event
+      fileInput.addEventListener("change", (e) => {
+        handleFileSelect(e.target.files);
+      });
+
+      // Click on upload area to trigger file input
+      uploadArea.addEventListener("click", (e) => {
+        if (e.target !== fileInput) {
+          fileInput.click();
+        }
+      });
+
+      // Drag and drop events
+      uploadArea.addEventListener("dragover", (e) => {
+        e.preventDefault();
+        uploadArea.classList.add("drag-over");
+      });
+
+      uploadArea.addEventListener("dragleave", (e) => {
+        e.preventDefault();
+        uploadArea.classList.remove("drag-over");
+      });
+
+      uploadArea.addEventListener("drop", (e) => {
+        e.preventDefault();
+        uploadArea.classList.remove("drag-over");
+        handleFileSelect(e.dataTransfer.files);
+      });
+
+      // Handle file selection
+      function handleFileSelect(files) {
+        if (files.length > 0) {
+          const file = files[0];
+          
+          // Check if it's a .txt file
+          if (!file.name.endsWith('.txt')) {
+            showMessage("Please select a .txt file", "error");
+            return;
+          }
+
+          submitBtn.disabled = false;
+          uploadArea.classList.add("file-selected");
+          
+          uploadTitle.textContent = "File selected:";
+          fileInfo.style.display = "none";
+          fileName.style.display = "block";
+          fileName.textContent = file.name;
+
+          // Clear any previous messages
+          messageArea.innerHTML = "";
+        }
+      }
+
+      // Submit button click event
+      submitBtn.addEventListener("click", uploadFile);
+
+      function showMessage(text, type = "success") {
+        const icons = {
+          success: '<svg class="message-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>',
+          error: '<svg class="message-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>',
+          info: '<svg class="message-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>'
+        };
+
+        messageArea.innerHTML = `
+          <div class="message ${type}">
+            ${icons[type] || icons.info}
+            <span>${text}</span>
+          </div>`;
+      }
+
+      async function uploadFile() {
+        if (!fileInput.files.length) {
+          showMessage("Please select a file first!", "error");
+          return;
+        }
+
+        const formData = new FormData();
+        formData.append("file", fileInput.files[0]);
+
+        // Disable button and show loading state
+        submitBtn.disabled = true;
+        submitText.innerHTML = '<div class="spinner"></div> Processing...';
+        showMessage("Generating report, please wait...", "info");
+
+        try {
+          const response = await fetch("http://127.0.0.1:8000/generate-report", {
+            method: "POST",
+            body: formData
+          });
+
+          console.log("Response status:", response.status);
+          console.log("Response headers:", response.headers);
+
+          if (!response.ok) {
+            const errorText = await response.text();
+            console.error("Error response:", errorText);
+            throw new Error(`Server error: ${response.status} - ${errorText}`);
+          }
+
+          // Get the blob
+          const blob = await response.blob();
+          console.log("Blob size:", blob.size, "Blob type:", blob.type);
+
+          if (blob.size === 0) {
+            throw new Error("Received empty file from server");
+          }
+
+          // Create download link
+          const url = window.URL.createObjectURL(blob);
+          const a = document.createElement("a");
+          a.style.display = "none";
+          a.href = url;
+          a.download = "Final_Report.xlsx";
+          
+          document.body.appendChild(a);
+          a.click();
+          
+          // Cleanup
+          setTimeout(() => {
+            document.body.removeChild(a);
+            window.URL.revokeObjectURL(url);
+          }, 100);
+
+          showMessage("Report downloaded successfully! ✓", "success");
+          
+          // Reset button
+          submitBtn.disabled = false;
+          submitText.textContent = "Generate Analysis Report";
+
+        } catch (err) {
+          console.error("Full error:", err);
+          showMessage(`Download failed: ${err.message}. Make sure the backend is running on port 8000.`, "error");
+          
+          // Reset button
+          submitBtn.disabled = false;
+          submitText.textContent = "Generate Analysis Report";
+        }
+      }
+    </script>
+  </body>
 </html>
-

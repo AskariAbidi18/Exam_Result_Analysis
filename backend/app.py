@@ -1,9 +1,8 @@
-from fastapi import FastAPI, UploadFile, File
-from fastapi.responses import FileResponse
-import uuid
-import os
-
-from openpyxl import load_workbook
+from fastapi import FastAPI, UploadFile, File, HTTPException
+from fastapi.responses import FileResponse, StreamingResponse
+from fastapi.middleware.cors import CORSMiddleware
+import uuid, os, shutil
+from pathlib import Path
 
 from backend.core.parser import parse_raw_data
 from backend.core.calculator import generate_result_summary
@@ -14,71 +13,110 @@ from backend.core.analysis import (
 )
 from backend.reports.excel_writer import generate_analysis_sheet
 from backend.reports.result_list_writer import generate_result_sheet
+from backend.main import auto_width
+
+from openpyxl import Workbook
 
 app = FastAPI()
 
-RAW_DIR = "data/raw"
+# CORS (important for frontend)
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+UPLOAD_DIR = "data/raw"
 OUTPUT_DIR = "data/output"
 
-CBSE_TEMPLATE = "data/output/test_result_sheet.xlsx"
-ANALYSIS_TEMPLATE = "backend/reports/templates/Result Analysis 2023 Class XII.xlsx"
+os.makedirs(UPLOAD_DIR, exist_ok=True)
+os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 
-@app.post("/upload")
-async def upload_file(file: UploadFile = File(...)):
+@app.post("/generate-report")
+async def generate_report(file: UploadFile = File(...)):
+    try:
+        # Validate file type
+        if not file.filename.endswith('.txt'):
+            raise HTTPException(status_code=400, detail="Only .txt files are supported")
 
-    raw_path = f"{RAW_DIR}/{uuid.uuid4()}.txt"
+        # Read file content directly into memory
+        content = await file.read()
+        
+        # Save to temporary file for parsing (required by parse_raw_data)
+        import tempfile
+        with tempfile.NamedTemporaryFile(mode='wb', delete=False, suffix='.txt') as tmp:
+            tmp.write(content)
+            tmp_path = tmp.name
 
-    with open(raw_path, "wb") as f:
-        f.write(await file.read())
+        print(f"Processing file: {file.filename}")
 
-    output_file = generate_report(raw_path)
+        try:
+            # Run pipeline
+            students = parse_raw_data(tmp_path)
+            print(f"Parsed {len(students)} students")
 
-    return FileResponse(
-        output_file,
-        media_type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-        filename="Final_CBSE_Result.xlsx"
-    )
+            wb = Workbook()
+            wb.remove(wb.active)
+
+            result_ws = wb.create_sheet("Result")
+            generate_result_sheet(result_ws, students)
+
+            analysis_ws = wb.create_sheet("Analysis")
+
+            summary = generate_result_summary(students)
+            toppers = get_toppers(students)
+            best_subjects = get_best_in_subject(students)
+            subject_perf = get_subject_wise_performance(students)
+
+            generate_analysis_sheet(
+                analysis_ws,
+                summary,
+                toppers,
+                best_subjects,
+                subject_perf
+            )
+
+            auto_width(result_ws)
+            auto_width(analysis_ws)
+
+            # Save to BytesIO instead of file
+            from io import BytesIO
+            excel_buffer = BytesIO()
+            wb.save(excel_buffer)
+            excel_buffer.seek(0)
+
+            print(f"Excel file created in memory, size: {len(excel_buffer.getvalue())} bytes")
+
+            # Return file as streaming response
+            return StreamingResponse(
+                excel_buffer,
+                media_type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                headers={
+                    "Content-Disposition": "attachment; filename=Final_Report.xlsx",
+                    "Access-Control-Expose-Headers": "Content-Disposition"
+                }
+            )
+        
+        finally:
+            # Clean up temporary file
+            if os.path.exists(tmp_path):
+                os.unlink(tmp_path)
+
+    except Exception as e:
+        print(f"Error: {str(e)}")
+        import traceback
+        traceback.print_exc()
+        raise HTTPException(status_code=500, detail=f"Error generating report: {str(e)}")
 
 
-def generate_report(raw_path):
+@app.get("/")
+async def root():
+    return {"message": "Board Exam Result Analyzer API is running"}
 
-    # Load CBSE formatted workbook
-    wb = load_workbook(CBSE_TEMPLATE)
 
-    # -------- RESULT SHEET (Sheet 7) --------
-    result_ws = wb.worksheets[6]
-    students = parse_raw_data(raw_path)
-    generate_result_sheet(result_ws, students)
-
-    # -------- ANALYSIS SHEET (Sheet 2) --------
-    template_wb = load_workbook(ANALYSIS_TEMPLATE)
-    template_ws = template_wb.active
-
-    analysis_ws = wb.copy_worksheet(template_ws)
-    analysis_ws.title = "Analysis"
-
-    # Move to 2nd position
-    wb._sheets.remove(analysis_ws)
-    wb._sheets.insert(1, analysis_ws)
-
-    # Compute stats
-    summary = generate_result_summary(students)
-    toppers = get_toppers(students)
-    best_subjects = get_best_in_subject(students)
-    subject_perf = get_subject_wise_performance(students)
-
-    # Fill analysis
-    generate_analysis_sheet(
-        analysis_ws,
-        summary,
-        toppers,
-        best_subjects,
-        subject_perf
-    )
-
-    # Save new file
-    out_file = f"{OUTPUT_DIR}/final_{uuid.uuid4()}.xlsx"
-    wb.save(out_file)
-
-    return out_file
+@app.get("/health")
+async def health_check():
+    return {"status": "ok"}
