@@ -41,7 +41,7 @@ def parse_class10(file_path: str) -> List[Student]:
             nums = [m.group() for m in matches]
             subject_codes = clean_subject_codes(nums)
 
-            if not validate_subject_count(subject_codes):
+            if not validate_subject_count(subject_codes, roll_no):
                 print(f"INVALID SUBJECT COUNT -> {roll_no} -> {subject_codes}")
                 i += 1
                 continue
@@ -63,7 +63,7 @@ def parse_class10(file_path: str) -> List[Student]:
             # ✅ same structure as subjects
             marks = marks[:len(subject_codes)]
 
-            if not validate_marks(subject_codes, marks):
+            if not validate_marks(subject_codes, marks, roll_no):
                 print(f"MISMATCH -> {roll_no}")
                 i += 1
                 continue

@@ -1,4 +1,6 @@
 from backend.core.constants import MAIN_SUBJECTS
+from backend.core.logger import log_error
+
 
 def clean_subject_codes(subject_codes):
 
@@ -15,11 +17,32 @@ def clean_subject_codes(subject_codes):
     return cleaned
 
 
-def validate_subject_count(subject_codes):
+def validate_subject_count(subject_codes, roll_no):
 
-    return len(subject_codes) in [5, 6]
+    valid = len(subject_codes) in [5, 6]
+
+    if not valid:
+
+        log_error(
+            f"INVALID SUBJECT COUNT -> "
+            f"{roll_no} -> {subject_codes}"
+        )
+
+    return valid
 
 
-def validate_marks(subject_codes, marks):
+def validate_marks(subject_codes, marks, roll_no):
 
-    return len(subject_codes) == len(marks)
+    valid = len(subject_codes) == len(marks)
+
+    if not valid:
+
+        log_error(
+            f"MARKS MISMATCH -> "
+            f"{roll_no} -> "
+            f"Subjects={subject_codes} "
+            f"Marks={marks}"
+        )
+
+    return valid
+    
