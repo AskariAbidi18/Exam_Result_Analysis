@@ -68,9 +68,6 @@ def parse_class10(file_path: str) -> List[Student]:
                 i += 1
                 continue
 
-            # DEBUG (remove after testing)
-            print("DEBUG ->", subject_codes, marks)
-
             # -------- BUILD SUBJECTS --------
             subjects: List[SubjectResult] = []
 
