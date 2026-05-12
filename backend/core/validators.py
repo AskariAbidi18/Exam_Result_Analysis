@@ -13,3 +13,13 @@ def clean_subject_codes(subject_codes):
             cleaned.append(code)
 
     return cleaned
+
+
+def validate_subject_count(subject_codes):
+
+    return len(subject_codes) in [5, 6]
+
+
+def validate_marks(subject_codes, marks):
+
+    return len(subject_codes) == len(marks)

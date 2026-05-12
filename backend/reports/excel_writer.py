@@ -95,7 +95,7 @@ def generate_analysis_sheet(ws, summary, toppers, best_subjects, subject_perf):
     for sub,data in best_subjects.items():
         ws.cell(row=rb,column=8,value=sub)
         ws.cell(row=rb,column=9,value=", ".join(data["students"]))
-        ws.cell(row=rb,column=10,value=data["percentage"])
+        ws.cell(row=rb,column=10,value=data["marks"])
         rb+=1
 
     style_table(ws,start+2,8,rb-1,10)

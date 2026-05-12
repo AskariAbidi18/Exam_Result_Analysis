@@ -1,9 +1,13 @@
 import re
 from typing import List
 from backend.core.models import Student, SubjectResult
-from backend.core.validators import clean_subject_codes
 from backend.core.constants import SUBJECT_MAP
 
+from backend.core.validators import (
+    clean_subject_codes,
+    validate_subject_count,
+    validate_marks
+)
 
 def parse_class10(file_path: str) -> List[Student]:
     with open(file_path, "r", encoding="utf-8") as file:
@@ -37,6 +41,11 @@ def parse_class10(file_path: str) -> List[Student]:
             nums = [m.group() for m in matches]
             subject_codes = clean_subject_codes(nums)
 
+            if not validate_subject_count(subject_codes):
+                print(f"INVALID SUBJECT COUNT -> {roll_no} -> {subject_codes}")
+                i += 1
+                continue
+
             # -------- RESULT --------
             result_match = re.search(
                 r"(PASS|COMP|COMPTT|COMPARTMENT|ESSENTIAL REPEAT|ABSENT)",
@@ -53,6 +62,11 @@ def parse_class10(file_path: str) -> List[Student]:
 
             # ✅ same structure as subjects
             marks = marks[:len(subject_codes)]
+
+            if not validate_marks(subject_codes, marks):
+                print(f"MISMATCH -> {roll_no}")
+                i += 1
+                continue
 
             # DEBUG (remove after testing)
             print("DEBUG ->", subject_codes, marks)
