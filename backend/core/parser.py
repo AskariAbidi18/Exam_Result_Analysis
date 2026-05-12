@@ -13,45 +13,70 @@ def parse_raw_data(file_path: str) -> List[Student]:
     while i < len(lines):
         line = lines[i].rstrip("\n")
 
-        # Start of a student record
+        # detect student line
         if re.match(r"^\d{8}", line):
 
-            parts = line.split()
-            roll_no = parts[0]
-            gender = parts[1]
+            # -------- BASIC INFO --------
+            roll_no = line[:8].strip()
+            gender = line[8:12].strip()
 
-            # Extract name (fixed CBSE width format)
-            name_start = line.find(parts[2])
-            name = line[name_start:57].strip()
+            # find subject positions
+            matches = list(re.finditer(r"\b\d{3}\b", line))
+            matches = [m for m in matches if m.start() > 15]
 
-            # Subject codes
-            subject_codes = re.findall(r"\d{3}", line[57:])
+            if not matches:
+                i += 1
+                continue
 
-            # Result status (expanded regex)
+            # name
+            name = line[12:matches[0].start()].strip()
+
+            # -------- SUBJECT CODES --------
+            nums = [m.group() for m in matches]
+
+            # ✅ CLASS 10 FIX: 5 main + last subject (165 column)
+            if len(nums) >= 6:
+                subject_codes = nums[:5] + [nums[-1]]
+            else:
+                subject_codes = nums
+
+            # -------- RESULT --------
             result_match = re.search(
                 r"(PASS|COMP|COMPTT|COMPARTMENT|ESSENTIAL REPEAT|ABSENT)",
                 line
             )
             result_status = result_match.group(1) if result_match else "UNKNOWN"
 
-            # Next line = marks + grades
+            # -------- MARKS --------
+            if i + 1 >= len(lines):
+                break
+
             marks_line = lines[i + 1].strip()
+            marks = list(map(int, re.findall(r"\b\d{2,3}\b", marks_line)))
 
-            marks = list(map(int, re.findall(r"\d{2,3}", marks_line)))
-            grades = re.findall(r"\b[A-D][1-2]|E\b", marks_line)
+            # ✅ same structure as subjects
+            if len(marks) >= 6:
+                marks = marks[:5] + [marks[-1]]
+            else:
+                marks = marks[:len(subject_codes)]
 
+            # DEBUG (remove after testing)
+            print("DEBUG ->", subject_codes, marks)
+
+            # -------- BUILD SUBJECTS --------
             subjects: List[SubjectResult] = []
 
-            for idx in range(min(len(subject_codes), len(marks), len(grades))):
+            for code, mark in zip(subject_codes, marks):
                 subjects.append(
                     SubjectResult(
-                        subject_code=subject_codes[idx],
+                        subject_code=code,
                         subject_name=None,
-                        marks=marks[idx],
-                        grade=grades[idx],
+                        marks=mark,
+                        grade="NA"
                     )
                 )
 
+            # -------- SAVE STUDENT --------
             students.append(
                 Student(
                     roll_no=roll_no,

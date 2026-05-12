@@ -1,403 +1,415 @@
 
 
-DATE:- 13-05-2025    C.B.S.E. - SENIOR SCHOOL CERTIFICATE EXAMINATION (MAIN)-2025      REGION: PRAYAGRAJ         PAGE:-       1
-                                                ***** (SCHOOL / ROLL NO WISE GAZETTE) *****
+DATE:- 15-04-2026    C.B.S.E. - ALL INDIA SECONDARY SCHOOL EXAMINATION (MAIN)-2026      REGION: LUCKNOW         PAGE:-       1
+                                    ***** (SCHOOL / ROLL NO WISE GAZETTE) *****
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-ROLL    F S NAME OF CANDIDATE                                   --------------------SUBJECTS------------------  INT-SB-GRD   RES                COMP
-NO      L X                                                     SUB CD  SUB CD  SUB CD  SUB CD  SUB CD  SUB CD  GR1 GR2 GR3                     SUB
-                                                                MKS GR  MKS GR  MKS GR  MKS GR  MKS GR  MKS GR 
+ROLL    F S NAME OF CANDIDATE                                   -----------------SUBJECTS-----------------------  RESULT            COMP
+NO      L X                                                     SUB CD SUB CD SUB CD SUB CD SUB CD SUB CD SUB CD                    SUB
+                                                                MKS GR MKS GR MKS GR MKS GR MKS GR MKS GR MKS GR
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
 SCHOOL : - 70361   J B ACADEMY VISHNUPURI AYODHYA UP                           
 
-23606053   F AADYA TRIPATHI                                      301     042     043     044     049     302      A1 A2 A1    PASS                      
-                                                                 097  A1 070  B1 093  A1 095  A1 100  A1 094  A1
-23606054   F ADITI PANDEY                                        301     042     043     044     048     302      A2 A2 A1    PASS                      
-                                                                 093  A1 074  A2 095  A1 089  A2 096  A1 092  A1
-23606055   F ADITI SINGH                                         301     042     043     044     037     049      A1 A2 A1    PASS                      
-                                                                 093  A1 081  A2 089  A1 086  A2 099  A1 099  A2
-23606056   M AKSHAT SINGH                                        301     042     043     041     083     844      A2 A2 A1    PASS                      
-                                                                 091  A2 074  A2 074  B1 070  B1 087  B1 099  A2
-23606057   F ALEEZA KHAN                                         301     042     043     037     044     049      A2 A2 A1    PASS                      
-                                                                 085  B1 073  B1 091  A1 098  A1 083  B1 099  A2
-23606058   M ALEKH KUMAR RAWAT                                   301     042     043     041     028     048      A2 A2 A2    PASS                      
-                                                                 094  A1 078  A2 091  A1 066  B2 092  A1 096  A1
-23606059   M ALIND YADAV                                         301     042     043     048     028     041      B2 A1 A2    PASS                      
-                                                                 054  D1 059  C1 048  D2 058  D1 051  C2 026  E 
-23606060   M AQDAS RAFAT KHAN                                    301     042     043     041     083     048      A2 A2 A2    PASS                      
-                                                                 087  A2 058  C2 068  B2 069  B1 093  A2 088  A2
-23606061   F ASMEET KAUR                                         301     042     043     041     083     844      A2 A2 A1    PASS                      
-                                                                 098  A1 067  B1 085  A2 046  D1 081  B2 099  A2
-23606062   M AYUSH YADAV                                         301     042     043     041     028     048      A2 A2 A2    PASS                      
-                                                                 096  A1 057  C2 063  C1 061  B2 090  A1 092  A1
+32108864   M AARADHYA VERMA                                     184    002    041    086    087           165     COMP               086    
+                                                                073    041    034    032    048           064   
+32108865   M AARAV MAURYA                                       184    002    041    086    087           165     PASS                      
+                                                                096    085    070    087    091           098   
+32108866   M AARAV YADAV                                        184    002    041    086    087           165     PASS                      
+                                                                087    076    066    068    082           098   
+32108867   F AARNA SINGH                                        184    002    087    086    241           165     PASS                      
+                                                                095    084    093    086    045           095   
+32108868   F AASTHA ANAND                                       184    002    241    086    087           165     PASS                      
+                                                                097    078    047    067    073           096   
+32108869   M AAYAN                                              184    002    041    086    087           165     PASS                      
+                                                                099    090    087    096    086           100   
+32108870   M ANIMESH TRIPATHI                                   184    002    041    086    087           165     PASS                      
+                                                                091    088    087    091    091           100   
+32108871   M ANMOL SRIVASTAVA                                   184    002    041    086    087           165     PASS                      
+                                                                091    072    055    061    079           095   
+32108872   M ARNAV ARORA                                        184    002    041    086    087           165     PASS                      
+                                                                084    082    059    071    079           095   
 
-23606063   M DEVANSH RAJPOOT                                     301     042     043     041     083     844      A2 A2 A1    PASS                      
-                                                                 096  A1 062  C1 071  B2 064  B2 086  B1 090  C1
-23606064   M DEVESH SINGH                                        301     042     043     041     028     036      A2 A2 A1    PASS                      
-                                                                 096  A1 077  A2 092  A1 066  B2 097  A1 095  B2
-23606065   F DIVA GAUTAM                                         301     042     043     041     083     844      A1 A2 A1    PASS                      
-                                                                 100  A1 076  A2 092  A1 067  B1 096  A1 100  A1
-23606066   F DIVYANSHI                                           301     042     043     037     044     036      A1 A2 A1    PASS                      
-                                                                 097  A1 073  B1 090  A1 100  A1 092  A1 100  A1
-23606067   M DIVYANSHU DWIVEDI                                   301     042     043     044     034     302      A1 A2 A2    PASS                      
-                                                                 097  A1 065  B2 085  A2 084  B1 091  B1 084  B1
-23606068   F GARGI TRIPATHI                                      301     042     043     041     083     036      A1 A2 A1    PASS                      
-                                                                 100  A1 067  B1 083  A2 052  C2 079  B2 098  A2
-23606069   M GARVIT MISHRA                                       301     042     043     037     044     048      A1 A1 A1    PASS                      
-                                                                 093  A1 060  C1 071  B2 094  A2 066  C1 090  A1
-23606070   M HARDIK RAJPAL                                       301     042     043     041     083     048      A2 A2 A1    PASS                      
-                                                                 096  A1 085  A1 097  A1 079  A2 094  A1 090  A1
-23606071   M ISHAN SURYAVANSHI                                   301     042     043     041     083     048      A2 A1 A1    PASS                      
-                                                                 086  B1 062  C1 064  C1 052  C2 068  C2 086  A2
-23606072   M ISHANK MISHRA                                       301     042     043     041     083     049      A1 A1 A1    PASS                      
-                                                                 091  A2 095  A1 098  A1 090  A1 099  A1 100  A1
+32108873   M ARTH SONI                                          184    002    041    086    087           165     COMP               041    
+                                                                082    058    030    067    068           090   
+32108874   F ARWA SAHU                                          184    002    041    086    087           165     PASS                      
+                                                                094    077    092    092    092           098   
+32108875   M ARYA VEER SINGH                                    184    002    041    086    087           165     PASS                      
+                                                                090    085    082    092    091           099   
+32108876   M ASHISH PAL                                         184    002    087    086    241           165     COMP               241    
+                                                                063    046    057    043    023           075   
+32108877   M ATHARV CHATURVEDI                                  184    002    041    086    087           165     PASS                      
+                                                                087    059    054    079    074           092   
+32108878   M ATHARVA RAVI MALVIYA                               184    002    041    086    087           165     PASS                      
+                                                                074    061    040    056    054           073   
+32108879   F AVIKA SINGH                                        184    002    087    086    241           165     PASS                      
+                                                                093    074    080    072    051           090   
+32108880   M AVTANSH PRATAP SINGH                               184    002    041    086    087           165     PASS                      
+                                                                100    093    074    097    093           100   
+32108881   M AYUSHMAAN SINGH                                    184    002    041    086    087           165     PASS                      
+                                                                088    082    077    087    091           097   
+32108882   F GAURI                                              184    002    087    086    241           165     PASS                      
+                                                                092    092    089    087    069           096   
 
-23606073   F KAADAMBARI RAJPAL                                   301     042     043     037     044     836      A1 A2 A1    PASS                      
-                                                                 099  A1 073  B1 097  A1 099  A1 099  A1 100  A1
-23606074   F KASHVI ATRI                                         301     042     043     037     044     048      A1 A2 A1    PASS                      
-                                                                 096  A1 063  B2 053  D1 096  A2 081  B1 095  A1
-23606075   M KUSHAGRA PANDEY                                     301     042     043     041     083     048      A2 A1 A1    PASS                      
-                                                                 068  C2 061  C1 058  C2 046  D1 070  C1 081  B1
+32108883   F ISHITA AGARWAL                                     184    002    041    086    087           165     PASS                      
+                                                                095    078    051    080    082           088   
+32108884   F ISHITA BARMAN                                      184    002    087    086    241           165     PASS                      
+                                                                097    081    087    074    083           092   
+32108885   M KHURSHEED ALAM                                     184    002    087    086    241           165     PASS                      
+                                                                083    067    070    038    046           077   
+32108886   M KUSHAGRA RASTOGI                                   184    002    041    086    087           165     PASS                      
+                                                                094    082    068    093    091           098   
 
-DATE:- 13-05-2025    C.B.S.E. - SENIOR SCHOOL CERTIFICATE EXAMINATION (MAIN)-2025      REGION: PRAYAGRAJ         PAGE:-       2
+DATE:- 15-04-2026    C.B.S.E. - ALL INDIA SECONDARY SCHOOL EXAMINATION (MAIN)-2026      REGION: LUCKNOW         PAGE:-       2
                                                 ***** (SCHOOL / ROLL NO WISE GAZETTE) *****
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-ROLL    F S NAME OF CANDIDATE                                   --------------------SUBJECTS------------------  INT-SB-GRD   RES                COMP
-NO      L X                                                     SUB CD  SUB CD  SUB CD  SUB CD  SUB CD  SUB CD  GR1 GR2 GR3                     SUB
-                                                                MKS GR  MKS GR  MKS GR  MKS GR  MKS GR  MKS GR 
+ROLL    F S NAME OF CANDIDATE                                   -----------------SUBJECTS-----------------------  RESULT            COMP
+NO      L X                                                     SUB CD SUB CD SUB CD SUB CD SUB CD SUB CD SUB CD                    SUB
+                                                                MKS GR MKS GR MKS GR MKS GR MKS GR MKS GR MKS GR
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
 SCHOOL : - 70361   J B ACADEMY VISHNUPURI AYODHYA UP                           
 
-23606076   M MANAS MISHRA                                        301     042     043     044     048     302      A2 A2 A1    PASS                      
-                                                                 094  A1 052  D2 056  C2 067  C1 091  A1 088  A2
-23606077   M MANKESHWAR PANDEY                                   301     042     043     041     083     048      A2 A2 A1    PASS                      
-                                                                 085  B1 074  A2 065  B2 049  C2 080  B2 088  A2
-23606078   M MOHD AKHTAR MEHDI                                   301     042     043     041     044     034      A1 A2 A1    PASS                      
-                                                                 094  A1 082  A1 099  A1 083  A2 096  A1 100  A1
-23606079   M NAMAN KHATRI                                        301     042     043     041     083     048      A2 A2 A1    PASS                      
-                                                                 094  A1 075  A2 085  A2 058  C1 095  A1 091  A1
-23606080   M NETRITVA SINGH RAJPOOT                              301     042     043     037     044     048      A2 A2 A1    PASS                      
-                                                                 100  A1 082  A1 094  A1 100  A1 096  A1 095  A1
-23606081   F PRIYANKA GUPTA                                      301     042     043     844     044     302      A1 A2 A1    PASS                      
-                                                                 097  A1 078  A2 073  B1 098  A2 091  A1 091  A1
-23606082   F RUJUTA TRIPATHI                                     301     042     043     037     044     048      A2 A2 A1    PASS                      
-                                                                 091  A2 057  C2 053  D1 094  A2 058  D1 085  A2
+32108887   F NAMRATA CHANDANI                                   184    002    087    086    241           165     PASS                      
+                                                                091    077    084    068    054           096   
+32108888   F NANDITA KEWLANI                                    184    002    087    086    241           165     PASS                      
+                                                                080    069    076    046    045           087   
+32108889   M OJAS MISHRA                                        184    002    041    086    087           165     PASS                      
+                                                                091    085    054    097    093           093   
+32108890   M OM SRIVASTAVA                                      184    002    041    086    087           165     PASS                      
+                                                                074    060    043    065    076           090   
+32108891   M PIYUSH AWASTHI                                     184    002    041    086    087           165     PASS                      
+                                                                086    091    050    074    084           092   
+32108892   F PRATISHTHA TIWARI                                  184    002    041    086    087           165     PASS                      
+                                                                093    084    037    073    084           090   
 
-23606083   M SANCHAY SRIVASTAV                                   301     042     043     041     083     048      A2 A2 A2    PASS                      
-                                                                 085  B1 085  A1 085  A2 085  A2 082  B2 093  A1
-23606084   M SHASHWAT SINGH                                      301     042     043     041     083     048      A2 A2 A1    PASS                      
-                                                                 086  B1 071  B1 068  B2 052  C2 078  B2 087  A2
-23606085   M SHIKHAR SINGH                                       301     042     043     044     048     302      A2 A2 A1    PASS                      
-                                                                 090  A2 059  C1 062  C1 061  C2 089  A2 081  B2
-23606086   F SHIMRA KHAN                                         301     042     043     037     044     049      A2 A2 A1    PASS                      
-                                                                 085  B1 061  C1 057  C2 085  B2 055  D1 095  B1
-23606087   M SHREYANSH TRIPATHI                                  301     042     043     037     044     048      A2 A2 A1    PASS                      
-                                                                 095  A1 062  C1 081  A2 098  A1 087  A2 096  A1
-23606088   M SIDDHARTH SINGH                                     301     042     043     041     083     049      A1 A2 A1    PASS                      
-                                                                 097  A1 074  A2 093  A1 080  A2 087  B1 099  A2
-23606089   M SWASTIK SHARMA                                      301     042     043     041     083     844      A2 A2 A1    PASS                      
-                                                                 092  A1 096  A1 095  A1 098  A1 099  A1 098  A2
-23606090   F TANVI SRIVASTAVA                                    301     042     043     041     083     034      A2 A2 A1    PASS                      
-                                                                 093  A1 088  A1 093  A1 081  A2 093  A2 100  A1
-23606091   M ABHISHEK BHARATWANSHI                               301     042     043     044     048     302      A2 A1 A2    PASS                      
-                                                                 085  B1 058  C2 070  B2 073  B2 082  B1 075  C1
-23606092   M ABHYUDAYA CHAUDHARY                                 301     042     043     044     036     302      A2 A2 A1    PASS                      
-                                                                 084  B1 060  C1 056  C2 060  C2 089  C2 084  B1
+32108893   F SAKSHI SRIVASTAVA                                  184    002    041    086    087           165     PASS                      
+                                                                095    079    080    072    082           095   
+32108894   M SAMARTH KHETAN                                     184    002    041    086    087           165     PASS                      
+                                                                083    078    075    091    086           091   
+32108895   F SAMRIDDHI                                          184    002    041    086    087           165     PASS                      
+                                                                094    089    086    097    092           099   
+32108896   M SANKALP TIWARI                                     184    002    041    086    087           165     PASS                      
+                                                                096    092    097    097    094           097   
+32108897   F SAUMYA MISHRA                                      184    002    087    086    241           165     PASS                      
+                                                                087    083    092    093    073           100   
+32108898   F SHAMBHAVI VISHEN                                   184    002    087    086    241           165     PASS                      
+                                                                091    056    068    070    049           085   
+32108899   F SHREYA SHARMA                                      184    002    041    086    087           165     PASS                      
+                                                                090    078    064    078    080           087   
+32108900   F SURABHI SINGH                                      184    002    041    086    087           165     PASS                      
+                                                                089    082    063    091    087           093   
+32108901   M VEER AHUJA                                         184    002    041    086    087           165     PASS                      
+                                                                098    095    087    093    094           095   
+32108902   F YASHI YADAV                                        184    002    087    086    241           165     PASS                      
+                                                                085    086    073    058    071           096   
 
-23606093   M AKSHAT SAXENA                                       301     042     043     034     044     041      A1 A2 A1    PASS                      
-                                                                 090  A2 062  C1 057  C2 098  A1 072  B2 033  E 
-23606094   F ALIZA FATIMA                                        301     042     043     041     083     048      A2 A1 A2    PASS                      
-                                                                 098  A1 073  B1 061  C1 051  C2 080  B2 092  A1
-23606095   M AMAN CHAUHAN                                        301     042     043     041     083     048      A1 A2 A2    PASS                      
-                                                                 081  B2 059  C1 070  B2 046  D1 091  A2 084  B1
-23606096   F ANSHIKA SINGH                                       301     055     054     041     030     048      A2 A2 A1    PASS                      
-                                                                 093  A1 071  B1 084  A2 057  C1 081  B1 084  B1
-23606097   F ANUSHKA JAISWAL                                     301     042     043     044     048     302      A2 A2 A2    PASS                      
-                                                                 086  B1 057  C2 065  B2 063  C2 087  A2 088  A2
-23606098   M ARMAAN DANIEL SINGH                                 301     042     043     037     044     036      A2 A2 A1    PASS                      
-                                                                 087  A2 075  A2 069  B2 099  A1 088  A2 097  B1
+32108903   M YATHARTH RAJPAL                                    184    002    041    086    087           165     PASS                      
+                                                                097    096    095    093    094           096   
+32108904   F AAMINA RIAZ                                        184    002    041    086    087           165     PASS                      
+                                                                096    091    088    099    097           100   
+32108905   F AARADHYA PANDEY                                    184    002    087    086    241           165     PASS                      
+                                                                094    091    081    068    053           088   
+32108906   M ABAN HUSAIN                                        184    002    041    086    087           165     PASS                      
+                                                                092    088    071    091    087           096   
+32108907   M ABHINAV PRATAP SINGH                               184    002    041    086    087           165     PASS                      
+                                                                091    090    048    079    085           098   
+32108908   M ADARSH MISHRA                                      184    002    041    086    087           165     PASS                      
+                                                                095    086    076    082    077           093   
+32108909   M ADITYA PANDEY                                      184    002    087    165    241           086     PASS                      
+                                                                064    048    056    067    036           028   
 
-DATE:- 13-05-2025    C.B.S.E. - SENIOR SCHOOL CERTIFICATE EXAMINATION (MAIN)-2025      REGION: PRAYAGRAJ         PAGE:-       3
+DATE:- 15-04-2026    C.B.S.E. - ALL INDIA SECONDARY SCHOOL EXAMINATION (MAIN)-2026      REGION: LUCKNOW         PAGE:-       3
                                                 ***** (SCHOOL / ROLL NO WISE GAZETTE) *****
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-ROLL    F S NAME OF CANDIDATE                                   --------------------SUBJECTS------------------  INT-SB-GRD   RES                COMP
-NO      L X                                                     SUB CD  SUB CD  SUB CD  SUB CD  SUB CD  SUB CD  GR1 GR2 GR3                     SUB
-                                                                MKS GR  MKS GR  MKS GR  MKS GR  MKS GR  MKS GR 
+ROLL    F S NAME OF CANDIDATE                                   -----------------SUBJECTS-----------------------  RESULT            COMP
+NO      L X                                                     SUB CD SUB CD SUB CD SUB CD SUB CD SUB CD SUB CD                    SUB
+                                                                MKS GR MKS GR MKS GR MKS GR MKS GR MKS GR MKS GR
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
 SCHOOL : - 70361   J B ACADEMY VISHNUPURI AYODHYA UP                           
 
-23606099   M DAKSH VERMA                                         301     042     043     041     083     048      A1 A2 A1    PASS                      
-                                                                 099  A1 079  A2 087  A2 080  A2 093  A2 085  A2
-23606100   M DEVANSH GUPTA                                       301     042     043     844     083     041      A2 A2 A1    PASS                      
-                                                                 087  A2 052  D2 051  D2 078  D1 070  C1 034  E 
-23606101   M DEVANSH SINGH                                       301     042     043     037     044     034      A2 A2 A1    PASS                      
-                                                                 099  A1 065  B2 078  B1 096  A2 088  A2 090  B1
-23606102   M DINKAR DUBEY                                        301     042     043     037     044     844      A2 A2 A1    PASS                      
-                                                                 099  A1 057  C2 059  C2 097  A2 065  C1 092  C1
+32108910   M AKSHAT VEER SINGH                                  184    002    041    086    087           165     PASS                      
+                                                                087    089    042    088    088           090   
+32108911   M ANMOL SRIVASTAVA                                   184    002    041    086    087           165     PASS                      
+                                                                084    083    045    069    078           088   
+32108912   M ASHWIN SINGH                                       184    002    041    086    087           165     PASS                      
+                                                                087    087    043    073    076           092   
 
-23606103   F DIVYANSHI SINGH                                     301     042     043     037     044     048      A1 A1 A1    PASS                      
-                                                                 098  A1 066  B2 082  A2 094  A2 071  C1 095  A1
-23606104   F HARGUN SINGH                                        301     042     043     037     044     036      A1 A2 A1    PASS                      
-                                                                 100  A1 065  B2 086  A2 090  B1 076  B2 098  A2
-23606105   M HARSHIT DIXIT                                       301     042     043     041     083     049      A1 A1 A1    PASS                      
-                                                                 096  A1 077  A2 100  A1 072  B1 092  A2 100  A1
-23606106   F HRITI TRIPATHI                                      301     042     043     037     044     844      A1 A2 A1    PASS                      
-                                                                 097  A1 072  B1 083  A2 100  A1 093  A1 100  A1
-23606107   M KARTIKEY MISHRA                                     301     042     043     041     083     048      A1 A2 A1    PASS                      
-                                                                 080  B2 061  C1 061  C1 047  D1 071  C1 080  B1
-23606108   M KRISH MEGHANI                                       301     042     043     041     083     048      A2 A1 A2    PASS                      
-                                                                 075  C1 051  D2 062  C1 046  D1 055  D1 072  C1
-23606109   M MOHAMMED AZIM UR RAHMAN                             301     042     043     048     083     041      A2 A2 A1    COMP               043 041
-                                                                 081  B2 057  C2 039  E  069  C2 056  D1 029  E 
-23606110   M NEELESH SRIVASTAV                                   301     042     043     041     083     048      A2 A2 A1    PASS                      
-                                                                 095  A1 090  A1 090  A1 073  B1 085  B1 094  A1
-23606111   F NEHA CHAUHAN                                        301     042     043     044     048     302      A1 A2 A1    PASS                      
-                                                                 098  A1 063  B2 084  A2 098  A1 090  A1 094  A1
-23606112   F PARI SINGHAL                                        301     042     043     041     083     049      A2 A2 A1    PASS                      
-                                                                 096  A1 074  A2 073  B1 063  B2 087  B1 095  B1
+32108913   F BHAWNA SINGH                                       184    002    087    086    241           165     PASS                      
+                                                                085    081    062    071    040           087   
+32108914   M DAKSH RAWAT                                        184    002    041    086    087           165     PASS                      
+                                                                097    090    065    090    077           095   
+32108915   M DEVANSH MAKHEJA                                    184    002    041    086    087           165     PASS                      
+                                                                090    080    081    093    085           097   
+32108916   M DHAIRYA TIWARI                                     184    002    041    086    087           165     PASS                      
+                                                                072    065    044    078    085           091   
+32108917   M DURGANSH TRIPATHI                                  184    002    041    086    087           165     PASS                      
+                                                                092    088    044    062    086           090   
+32108918   M MOHD FAZIL HUSAIN                                  184    002    087    086    241           165     PASS                      
+                                                                090    083    081    086    065           094   
+32108919   F GITALI MOTWANI                                     184    002    041    086    087           165     PASS                      
+                                                                098    096    099    098    098           099   
+32108920   M HITANSH KSHETRAPAL                                 184    002    041    086    087           165     PASS                      
+                                                                097    087    092    093    085           099   
+32108921   M HONEY VERMA                                        184    002    041    086    087           165     PASS                      
+                                                                094    089    068    092    087           090   
+32108922   F INSHARAH IMRAN                                     184    002    087    086    241           165     PASS                      
+                                                                069    071    056    049    040           066   
 
-23606113   M PIUSH SAHAI                                         301     042     043     041     083     048      A1 A2 A1    PASS                      
-                                                                 091  A2 053  D1 058  C2 046  D1 059  D1 084  B1
-23606114   M PRASHAST GUPTA                                      301     042     043     037     044     048      A1 A1 A2    PASS                      
-                                                                 093  A1 065  B2 059  C2 075  C2 085  A2 080  B1
-23606115   M RAJYA VARDHAN SINGH                                 301     042     043     037     044     048      A2 A2 A1    PASS                      
-                                                                 093  A1 066  B2 056  C2 066  D1 072  B2 081  B1
-23606116   F RIDHIMA PANDEY                                      301     042     043     041     083     844      A1 A2 A1    PASS                      
-                                                                 096  A1 077  A2 095  A1 058  C1 094  A1 099  A2
-23606117   M SAKSHAM RAJPAL                                      301     042     043     041     083     036      A1 A1 A1    PASS                      
-                                                                 087  A2 067  B1 054  D1 046  D1 084  B1 098  A2
-23606118   F SANCHITA SEHTA                                      301     042     043     037     044     844      A1 A2 A1    PASS                      
-                                                                 099  A1 073  B1 094  A1 096  A2 084  B1 098  A2
-23606119   M SANKALP DWIVEDI                                     301     042     043     041     083     048      A1 A1 A1    PASS                      
-                                                                 096  A1 071  B1 089  A1 059  C1 088  B1 093  A1
-23606120   M SARTHAK MISHRA                                      301     042     043     041     083     049      A1 A1 A1    PASS                      
-                                                                 086  B1 060  C1 068  B2 045  D2 080  B2 091  C1
-23606121   F SHAGUN KASOUDHAN                                    301     042     043     041     083     049      A1 A1 A1    PASS                      
-                                                                 093  A1 066  B2 075  B1 054  C1 081  B2 097  B1
+32108923   M JARI ABBAS RIZVI                                   184    002    041    086    087           165     PASS                      
+                                                                099    097    098    095    096           100   
+32108924   M JATIN BAJAJ                                        184    002    087    086    241           165     PASS                      
+                                                                086    082    076    079    074           085   
+32108925   M JAYANT DUBEY                                       184    002    041    086    087           165     PASS                      
+                                                                076    088    071    081    082           079   
+32108926   M MAYANKESHWAR PRATAP SINGH                          184    002    041    086    087           165     PASS                      
+                                                                096    085    051    081    093           095   
+32108927   M PRANJAL SRIVASTAVA                                 184    002    041    086    087           165     PASS                      
+                                                                075    082    049    065    075           078   
+32108928   F PRASHASTI PANDEY                                   184    002    087    086    241           165     PASS                      
+                                                                078    067    067    046    040           070   
+32108929   F SAMRIDDHI PANDEY                                   184    002    087    086    241           165     PASS                      
+                                                                093    096    084    062    048           091   
+32108930   M SATYAVEER RAJPOOT                                  184    002    087    086    241           165     PASS                      
+                                                                052    059    052    036    035           058   
+32108931   F SAUMYA SRIVASTAVA                                  184    002    087    086    241           165     PASS                      
+                                                                067    066    054    057    035           074   
+32108932   F SHATAKSHI PAAWAN                                   184    002    041    086    087           165     PASS                      
+                                                                096    090    092    099    093           099   
+
 
-DATE:- 13-05-2025    C.B.S.E. - SENIOR SCHOOL CERTIFICATE EXAMINATION (MAIN)-2025      REGION: PRAYAGRAJ         PAGE:-       4
+DATE:- 15-04-2026    C.B.S.E. - ALL INDIA SECONDARY SCHOOL EXAMINATION (MAIN)-2026      REGION: LUCKNOW         PAGE:-       4
                                                 ***** (SCHOOL / ROLL NO WISE GAZETTE) *****
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-ROLL    F S NAME OF CANDIDATE                                   --------------------SUBJECTS------------------  INT-SB-GRD   RES                COMP
-NO      L X                                                     SUB CD  SUB CD  SUB CD  SUB CD  SUB CD  SUB CD  GR1 GR2 GR3                     SUB
-                                                                MKS GR  MKS GR  MKS GR  MKS GR  MKS GR  MKS GR 
+ROLL    F S NAME OF CANDIDATE                                   -----------------SUBJECTS-----------------------  RESULT            COMP
+NO      L X                                                     SUB CD SUB CD SUB CD SUB CD SUB CD SUB CD SUB CD                    SUB
+                                                                MKS GR MKS GR MKS GR MKS GR MKS GR MKS GR MKS GR
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
 SCHOOL : - 70361   J B ACADEMY VISHNUPURI AYODHYA UP                           
 
-23606122   M SHASHWAT SRIVASTAVA                                 301     042     043     041     083     036      A1 A2 A1    PASS                      
-                                                                 090  A2 053  D1 061  C1 047  D1 067  C2 097  B1
+32108933   M SHAURYA SRIVASTAVA                                 184    002    041    086    087           165     PASS                      
+                                                                095    085    090    091    085           090   
+32108934   M SHIVANSH TRIPATHI                                  184    002    087    086    241           165     PASS                      
+                                                                070    079    066    061    040           073   
+32108935   M SNEHIL SINGH                                       184    002    041    086    087           165     PASS                      
+                                                                092    084    072    088    084           100   
+32108936   M SURYANSH PATHAK                                    184    002    041    086    087           165     PASS                      
+                                                                093    078    069    088    077           090   
+32108937   M SUSHANT PANDEY                                     184    002    087    086    241           165     PASS                      
+                                                                062    062    048    046    034           065   
+32108938   M SYED TAHIR MEHDI ZAIDI                             184    002    041    086    087           165     PASS                      
+                                                                087    080    071    079    068           079   
+32108939   M TEJAS GARG                                         184    002    041    086    087           165     PASS                      
+                                                                099    084    093    097    073           099   
+32108940   M TEJAS MISHRA                                       184    002    041    086    087           165     PASS                      
+                                                                085    078    039    046    070           075   
+32108941   F VAISHNAVI SRIVASTAVA                               184    002    041    086    087           165     PASS                      
+                                                                095    095    069    090    090           095   
+32108942   M VANDIT BANSAL                                      184    002    041    086    087           165     PASS                      
+                                                                077    069    066    090    073           091   
 
-23606123   F UNNATI GOYAL                                        301     042     043     041     083     034      A1 A2 A1    PASS                      
-                                                                 085  B1 067  B1 074  B1 047  D1 091  A2 097  A1
-23606124   M VAIBHAV PANDEY                                      301     042     043     041     083     844      A1 A2 A1    PASS                      
-                                                                 091  A2 061  C1 057  C2 050  C2 088  B1 091  C1
-23606125   M YUVRAJ SINGH                                        301     042     043     037     044     048      A1 A1 A1    PASS                      
-                                                                 097  A1 091  A1 097  A1 093  B1 098  A1 090  A1
-23606126   M AANJANEYA SINGH                                     301     055     054     041     083     844      A2 A2 A1    PASS                      
-                                                                 096  A1 085  A2 080  B1 046  D1 075  C1 092  C1
-23606127   M ABDULLAH JAVED                                      301     055     054     030     048     302      B1 A2 A2    PASS                      
-                                                                 091  A2 048  D1 065  C1 063  C1 077  B2 077  C1
-23606128   M ADITYA AGARWAL                                      301     055     054     041     030     844      A2 A2 A1    PASS                      
-                                                                 095  A1 079  A2 093  A1 046  D1 094  A1 093  B2
-23606129   M ADITYA PRATAP SINGH                                 301     055     054     041     030     844      A2 A1 A1    PASS                      
-                                                                 090  A2 097  A1 084  A2 046  D1 084  A2 096  B1
-23606130   M AKSHAT NATH                                         301     055     054     037     030     049      A2 A2 A1    PASS                      
-                                                                 097  A1 064  B2 080  B1 092  B1 096  A1 099  A2
-23606131   M ANSH SRIVASTAVA                                     301     302     054     055     030     048      A2 A2 A2    PASS                      
-                                                                 100  A1 074  C1 083  A2 065  B2 088  A2 096  A1
-23606132   F ANTRA SINGH                                         301     055     054     037     030     048      B1 A1 A1    PASS                      
-                                                                 082  B1 053  C1 076  B1 077  C1 076  B1 082  B1
+32108943   F AGRIMA SOOD                                        184    002    041    086    087           165     PASS                      
+                                                                097    086    078    088    093           097   
+32108944   F AISHA FATIMA                                       184    002    041    086    087           165     PASS                      
+                                                                092    089    040    068    065           083   
+32108945   M AKSHAT SHUKLA                                      184    002    041    086    087           165     PASS                      
+                                                                090    094    094    097    098           096   
+32108946   M ANSH ARORA                                         184    002    041    086    087           165     PASS                      
+                                                                084    090    072    079    068           093   
+32108947   F ANWESHA TRIPATHI                                   184    002    041    086    087           165     PASS                      
+                                                                096    095    076    095    091           099   
+32108948   M ARADHYA SHUKLA                                     184    002    041    086    087           165     PASS                      
+                                                                076    090    046    055    077           086   
+32108949   F ARYA SINGH                                         184    002    041    086    087           165     PASS                      
+                                                                094    075    043    063    069           085   
+32108950   M AZZAAM                                             184    002    087    086    241           165     PASS                      
+                                                                088    087    079    070    061           090   
+32108951   M CHINMAY MANDHYAN                                   184    002    087    086    241           165     PASS                      
+                                                                062    058    053    036    041           076   
+32108952   M DEVANSH SINGH                                      184    002    041    086    087           165     PASS                      
+                                                                092    080    036    063    079           080   
 
-23606133   M ANUNAY KANSAL                                       301     055     054     037     030     049      A1 A1 A1    PASS                      
-                                                                 095  A1 064  B2 070  B2 085  B2 079  B1 099  A2
-23606134   F ANUSHKA KASAUDHAN                                   301     055     054     037     030     049      A1 A2 A1    PASS                      
-                                                                 098  A1 095  A1 093  A1 091  B1 097  A1 099  A2
-23606135   M ARJUN JAISWAL                                       301     302     054     055     030     048      A2 A2 A2    PASS                      
-                                                                 068  C2 068  C2 061  C1 052  C2 063  C1 077  B2
-23606136   F DIKSHA GUPTA                                        301     055     054     041     030     048      A2 A1 A1    PASS                      
-                                                                 096  A1 097  A1 089  A2 094  A1 099  A1 098  A1
-23606137   F GARVITA GUPTA                                       301     055     054     037     030     036      A2 A2 A1    PASS                      
-                                                                 091  A2 075  B1 087  A2 090  B1 087  A2 092  C1
-23606138   M HANS RAJ SADHWANI                                   301     055     054     037     030     844      B2 A2 A2    PASS                      
-                                                                 093  A1 095  A1 080  B1 090  B1 084  A2 094  B2
-23606139   F JAHNVI SINGH                                        301     055     054     041     030     844      A2 A1 A1    PASS                      
-                                                                 094  A1 095  A1 088  A2 071  B1 074  B2 099  A2
-23606140   F KANIKA TUTEZA                                       301     055     054     037     030     049      A2 A2 A1    PASS                      
-                                                                 094  A1 089  A1 086  A2 097  A2 094  A1 097  B1
-23606141   M KRISHNA GUPTA                                       301     055     054     041     030     844      A2 A2 A2    PASS                      
-                                                                 089  A2 053  C1 065  C1 054  C1 068  C1 087  C2
-23606142   M KRISHNA PODDAR                                      301     055     054     037     030     844      A2 A2 A2    PASS                      
-                                                                 095  A1 045  D2 052  D1 075  C2 048  D1 090  C1
-
-23606143   M LAKSHYA                                             301     055     054     041     030     844      A1 A2 A1    PASS                      
-                                                                 098  A1 098  A1 091  A1 083  A2 091  A1 100  A1
-23606144   M MOHD FURKAAN                                        301     048     054     037     030     055      B1 A1 B2    PASS                      
-                                                                 046  D2 063  D1 045  D2 052  D2 044  D2 022  E 
+32108953   M DIVYANAND MISHRA                                   184    002    041    086    087           165     PASS                      
+                                                                085    088    089    088    091           100   
+32108954   F DIVYANSHI JIWANI                                   184    002    041    086    087           165     PASS                      
+                                                                087    073    049    066    066           082   
+32108955   F HAIQA TARIQ ANSARI                                 184    002    041    086    087           165     PASS                      
+                                                                094    094    081    098    079           100   
 
-DATE:- 13-05-2025    C.B.S.E. - SENIOR SCHOOL CERTIFICATE EXAMINATION (MAIN)-2025      REGION: PRAYAGRAJ         PAGE:-       5
+DATE:- 15-04-2026    C.B.S.E. - ALL INDIA SECONDARY SCHOOL EXAMINATION (MAIN)-2026      REGION: LUCKNOW         PAGE:-       5
                                                 ***** (SCHOOL / ROLL NO WISE GAZETTE) *****
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-ROLL    F S NAME OF CANDIDATE                                   --------------------SUBJECTS------------------  INT-SB-GRD   RES                COMP
-NO      L X                                                     SUB CD  SUB CD  SUB CD  SUB CD  SUB CD  SUB CD  GR1 GR2 GR3                     SUB
-                                                                MKS GR  MKS GR  MKS GR  MKS GR  MKS GR  MKS GR 
+ROLL    F S NAME OF CANDIDATE                                   -----------------SUBJECTS-----------------------  RESULT            COMP
+NO      L X                                                     SUB CD SUB CD SUB CD SUB CD SUB CD SUB CD SUB CD                    SUB
+                                                                MKS GR MKS GR MKS GR MKS GR MKS GR MKS GR MKS GR
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
 SCHOOL : - 70361   J B ACADEMY VISHNUPURI AYODHYA UP                           
 
-23606145   M MOHD ALI JAUHARI                                    301     048     054     037     083     055      A2 A1 B2    PASS                      
-                                                                 065  C2 063  D1 045  D2 052  D2 051  D2 032  E 
-23606146   F NAVYA SRIVASTAVA                                    301     055     054     037     030     844      A1 A1 A1    PASS                      
-                                                                 100  A1 051  C2 073  B2 081  C1 066  C1 097  B1
-23606147   F NEETI KESHWANI                                      301     055     054     037     030     844      A2 A2 A1    PASS                      
-                                                                 097  A1 095  A1 082  B1 097  A2 091  A1 097  B1
-23606148   M NILAY YADAV                                         301     302     054     048     030     055      A2 A2 B2    PASS                      
-                                                                 070  C2 047  D2 045  D2 076  B2 044  D2 025  E 
-23606149   F OJASVI VED                                          301     055     054     037     030     034      A1 A2 A1    PASS                      
-                                                                 099  A1 099  A1 092  A1 100  A1 097  A1 100  A1
-23606150   M PALASH CHANDANI                                     301     302     054     030     048     055      B1 A1 B1    PASS                      
-                                                                 070  C2 069  C2 046  D2 049  D1 085  A2 026  E 
-23606151   M PRABHMEET SINGH                                     301     055     054     041     030     844      A2 A2 A1    PASS                      
-                                                                 095  A1 096  A1 084  A2 067  B1 090  A2 095  B2
-23606152   M PRATHMESH                                           301     055     054     037     030     049      A2 A2 A1    PASS                      
-                                                                 088  A2 085  A2 080  B1 091  B1 051  D1 100  A1
+32108956   M ISHAN SHAHI                                        184    002    041    086    087           165     PASS                      
+                                                                086    084    040    056    067           070   
+32108957   M KARTIK PANT                                        184    002    087    086    241           165     PASS                      
+                                                                081    077    084    079    054           088   
+32108958   M KARTIK SINGHAL                                     184    002    041    086    087           165     PASS                      
+                                                                088    090    066    092    076           096   
+32108959   M MANAN AGARWAL                                      184    002    041    086    087           165     PASS                      
+                                                                078    086    044    065    070           084   
+32108960   F MEEHIKA SINGH                                      184    002    041    086    087           165     PASS                      
+                                                                089    095    051    080    075           094   
+32108961   M MINHAL ABBAS ZAIDI                                 184    002    041    086    087           165     PASS                      
+                                                                092    087    085    097    098           099   
+32108962   M MOHAMMAD AYAAN KHAN                                184    002    087    086    241           165     PASS                      
+                                                                089    080    090    061    047           090   
 
-23606153   M RANVEER SINGH                                       301     302     054     030     048     055      A2 A1 A2    PASS                      
-                                                                 054  D1 051  D2 046  D2 045  D2 078  B2 028  E 
-23606154   M SAMARTH GOEL                                        301     055     054     041     030     844      A2 A1 A2    PASS                      
-                                                                 098  A1 095  A1 093  A1 075  A2 095  A1 096  B1
-23606155   M SAYED MOHAMMAD MERAJ ABBAS                          301     055     054     030     836     302      A1 A2 A2    PASS                      
-                                                                 095  A1 056  C1 089  A2 087  A2 090  B1 081  B2
-23606156   M SUFIYAAN FAISAL                                     301     055     054     037     030     048      A2 A2 A2    PASS                      
-                                                                 090  A2 050  C2 052  D1 077  C1 071  B2 088  A2
-23606157   M SUYASH SRIVASTAVA                                   301     055     054     030     048     302      B2 A2 A2    PASS                      
-                                                                 081  B2 044  D2 047  D1 045  D2 089  A2 073  C2
-23606158   M TANISHQ JAISWAL                                     301     055     054     037     028     844      A2 A2 A2    PASS                      
-                                                                 090  A2 065  B2 069  B2 092  B1 086  A2 088  C2
-23606159   M VAIBHAV SINGH                                       301     055     054     030     034     302      A2 A2 A2    PASS                      
-                                                                 083  B1 057  C1 051  D1 066  C1 083  C2 069  C2
-23606160   M VINAYAK SINHA                                       301     048     054     037     030     055      A1 A2 A2    PASS                      
-                                                                 064  C2 085  A2 045  D2 065  D1 060  C2 028  E 
-23606161   M YASH KALANI                                         301     055     054     041     030     034      A2 A2 A2    PASS                      
-                                                                 091  A2 095  A1 093  A1 046  D1 098  A1 090  B1
-23606162   M YASIR MASROOR                                       301     055     054     037     030     844      A2 A2 A1    PASS                      
-                                                                 084  B1 044  D2 057  C2 082  C1 074  B2 084  C2
+32108963   F NAVYA OBEROI                                       184    002    041    086    087           165     PASS                      
+                                                                087    094    080    095    096           098   
+32108964   M PARTH RAMANI                                       184    002    041    086    087           165     PASS                      
+                                                                080    068    038    063    071           079   
+32108965   M PAWAN CHAUHAN                                      184    002    041    086    087           165     PASS                      
+                                                                085    088    053    073    083           085   
+32108966   M PRABUDH PANDEY                                     184    002    041    086    087           165     PASS                      
+                                                                090    096    096    099    096           098   
+32108967   M PRAKHAR TIWARI                                     184    002    041    086    087           165     PASS                      
+                                                                090    095    076    083    090           093   
+32108968   M PUSHKAR PIYUSH GUPTA                               184    002    041    086    087           165     PASS                      
+                                                                081    076    035    051    080           068   
+32108969   M RACHIT MISHRA                                      184    002    041    086    087           165     PASS                      
+                                                                067    074    041    084    093           091   
+32108970   F RIDDHI SHARMA                                      184    002    041    086    087           165     COMP               041    
+                                                                080    056    029    036    071           077   
+32108971   F RIDHIMA AGARWAL                                    184    002    041    086    087           165     PASS                      
+                                                                085    087    063    089    077           094   
+32108972   F RINAD KHAN                                         184    002    041    086    087           165     PASS                      
+                                                                081    083    056    086    089           100   
 
-23606163   M ZAIDAN GHANI                                        301     055     054     037     030     844      A2 A2 A2    PASS                      
-                                                                 085  B1 048  D1 068  C1 075  C2 070  B2 089  C1
-23606164   F ZAINAB AHMAD                                        301     055     054     037     030     049      A2 A2 A1    PASS                      
-                                                                 096  A1 093  A1 095  A1 100  A1 093  A1 100  A1
-23606165   F AAKRITI CHAURASIA                                   301     027     029     037     028     049      A2 A2 A1    PASS                      
-                                                                 096  A1 072  B1 087  A2 086  B2 088  A1 099  A2
-23606166   F ADITI SINGH                                         301     027     029     037     028     036      B1 A2 A1    PASS                      
-                                                                 095  A1 090  A1 089  A2 091  B1 092  A1 096  B1
-23606167   M ANAND SINGH                                         301     027     029     037     028     048      B2 A2 A2    PASS                      
-                                                                 085  B1 054  C2 073  B2 083  B2 068  B2 086  A2
+32108973   M RISHABH MENDIRATTA                                 184    002    041    086    087           165     PASS                      
+                                                                080    072    056    059    059           090   
+32108974   M RISHI GUPTA                                        184    002    087    086    241           165     PASS                      
+                                                                054    065    052    039    036           069   
+32108975   M SHAURYA KESARWANI                                  184    002    087    086    241           165     PASS                      
+                                                                070    068    072    037    034           077   
+32108976   M SHISHIR PANDEY                                     184    002    041    086    087           165     PASS                      
+                                                                088    091    083    091    094           100   
+32108977   F TANISHKA AGARWAL                                   184    002    087    086    241           165     PASS                      
+                                                                097    090    074    059    054           094   
+32108978   M TAQI ALI ZAIDI                                     184    002    041    086    087           165     PASS                      
+                                                                095    095    095    097    098           099   
 
-DATE:- 13-05-2025    C.B.S.E. - SENIOR SCHOOL CERTIFICATE EXAMINATION (MAIN)-2025      REGION: PRAYAGRAJ         PAGE:-       6
+DATE:- 15-04-2026    C.B.S.E. - ALL INDIA SECONDARY SCHOOL EXAMINATION (MAIN)-2026      REGION: LUCKNOW         PAGE:-       6
                                                 ***** (SCHOOL / ROLL NO WISE GAZETTE) *****
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-ROLL    F S NAME OF CANDIDATE                                   --------------------SUBJECTS------------------  INT-SB-GRD   RES                COMP
-NO      L X                                                     SUB CD  SUB CD  SUB CD  SUB CD  SUB CD  SUB CD  GR1 GR2 GR3                     SUB
-                                                                MKS GR  MKS GR  MKS GR  MKS GR  MKS GR  MKS GR 
+ROLL    F S NAME OF CANDIDATE                                   -----------------SUBJECTS-----------------------  RESULT            COMP
+NO      L X                                                     SUB CD SUB CD SUB CD SUB CD SUB CD SUB CD SUB CD                    SUB
+                                                                MKS GR MKS GR MKS GR MKS GR MKS GR MKS GR MKS GR
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
 SCHOOL : - 70361   J B ACADEMY VISHNUPURI AYODHYA UP                           
 
-23606168   F ANUSHKA MISHRA                                      301     027     029     028     036     302      A2 A2 A1    PASS                      
-                                                                 076  C1 058  C1 064  C1 080  A2 080  D2 088  A2
-23606169   F ANVITA KUMAR                                        301     027     029     037     028     049      A1 A2 A1    PASS                      
-                                                                 094  A1 091  A1 094  A1 099  A1 098  A1 099  A2
-23606170   F ARUSHI CHHABRA                                      301     027     029     037     028     049      B2 A2 A2    PASS                      
-                                                                 075  C1 076  A2 070  B2 085  B2 076  B1 094  B2
-23606171   F AVIKA SHARMA                                        301     027     029     037     028     844      A1 A2 A1    PASS                      
-                                                                 098  A1 097  A1 097  A1 097  A2 094  A1 098  A2
-23606172   M AYUSH VERMA                                         301     027     029     028     034     302      A2 A2 A1    PASS                      
-                                                                 096  A1 083  A2 082  A2 086  A2 088  B2 082  B2
+32108979   F VANYA YADUVANSHI                                   184    002    087    086    241           165     PASS                      
+                                                                094    082    080    089    077           093   
+32108980   F VASUDHAKSHI                                        184    002    041    086    087           165     PASS                      
+                                                                096    096    064    082    089           094   
+32108981   M VIRAT SINHA                                        184    002    041    086    087           165     PASS                      
+                                                                082    080    054    074    084           088   
+32108982   F ZAIRA KHAN                                         184    002    087    086    241           165     PASS                      
+                                                                081    085    075    075    070           083   
 
-23606173   F BHARGAVEE MISHRA                                    301     027     029     028     049     302      A1 A2 A1    PASS                      
-                                                                 088  A2 076  A2 059  C2 085  A2 099  A2 057  D2
-23606174   M BRAHMANSH ANURAG                                    301     027     029     037     028     048      A2 A2 A2    PASS                      
-                                                                 084  B1 076  A2 084  A2 085  B2 082  A2 084  B1
-23606175   M DEV NANDAN                                          301     027     029     028     036     302      A1 A2 A1    PASS                      
-                                                                 070  C2 058  C1 059  C2 050  C2 094  B2 060  D1
-23606176   M FAHAD AHMAD KHAN                                    301     027     029     028     049     302      B2 A2 A2    PASS                      
-                                                                 070  C2 089  A1 079  B1 088  A1 096  B1 082  B2
-23606177   F JAYA SIBBAL                                         301     027     029     037     028     844      A2 A2 A1    PASS                      
-                                                                 085  B1 073  B1 080  B1 082  C1 094  A1 088  C2
-23606178   M KARTIKEY PANDEY                                     301     027     029     037     028     034      A1 A2 A2    PASS                      
-                                                                 085  B1 082  A2 094  A1 096  A2 092  A1 089  B2
-23606179   M KUSHAGRA SRIVASTAVA                                 301     027     029     028     844     302      A1 A2 A1    PASS                      
-                                                                 096  A1 096  A1 094  A1 099  A1 099  A2 088  A2
-23606180   F MANASVI                                             301     027     029     037     028     049      B2 A2 A1    PASS                      
-                                                                 093  A1 084  A2 093  A1 098  A1 091  A1 098  A2
-23606181   M MANU MISHRA                                         301     027     029     037     028     034      A2 A2 A2    PASS                      
-                                                                 080  B2 077  A2 078  B1 091  B1 092  A1 087  B2
-23606182   M MAYANK TRIPATHI                                     301     027     029     028     034     302      A1 A2 A1    PASS                      
-                                                                 096  A1 095  A1 092  A1 098  A1 092  B1 088  A2
+32108983   M AARAV ARORA                                        184    002    041    086    087           165     PASS                      
+                                                                099    090    087    091    075           094   
+32108984   F AARNA CHAUDHARI                                    184    002    087    086    241           165     PASS                      
+                                                                090    095    096    097    092           099   
+32108985   M AARYAN RAJPAL                                      184    002    041    086    087           165     PASS                      
+                                                                096    089    075    081    092           095   
+32108986   F ADDYA SINGH                                        184    002    087    086    241           165     PASS                      
+                                                                090    085    085    067    047           094   
+32108987   M AYAAN SHARIQ                                       184    002    087    086    241           165     COMP               086    
+                                                                046    046    060    027    034           068   
+32108988   F AYESHA FATIMA                                      184    002    087    086    241           165     PASS                      
+                                                                092    082    083    089    063           089   
+32108989   M DAKSH MUKESH                                       184    002    087    086    241           165     PASS                      
+                                                                087    085    061    054    045           080   
+32108990   M DEVAL KRIPLANI                                     184    002    087    086    241           165     PASS                      
+                                                                086    074    079    059    056           082   
+32108991   M GHAZI ABBAS RIZVI                                  184    002    041    086    087           165     PASS                      
+                                                                099    090    083    095    090           099   
+32108992   M HARDIK DWIVEDI                                     184    002    041    086    087           165     PASS                      
+                                                                090    086    076    084    084           095   
 
-23606183   F MEENAKSHI GOSWAMI                                   301     027     029     028     048     302      A1 A2 A1    PASS                      
-                                                                 091  A2 095  A1 091  A1 096  A1 091  A1 095  A1
-23606184   F MINAKSHI SINGH VISEN                                301     027     029     030     049     302      A1 A2 A1    PASS                      
-                                                                 083  B1 090  A1 081  B1 083  A2 100  A1 079  B2
-23606185   M MOHD YUNUS                                          301     027     029     037     028     049      B2 A2 A2    PASS                      
-                                                                 054  D1 055  C2 053  D1 054  D2 049  D1 078  D2
-23606186   M NIMISH SINGH                                        301     027     029     037     083     844      A1 A2 A1    PASS                      
-                                                                 081  B2 082  A2 070  B2 091  B1 092  A2 096  B1
-23606187   M NISHIT SINGH                                        301     027     029     037     028     048      B2 A2 A2    PASS                      
-                                                                 082  B1 068  B1 054  D1 084  B2 079  A2 088  A2
-23606188   F PAVITRA SINGH                                       301     027     029     037     028     049      A2 A2 A2    PASS                      
-                                                                 088  A2 093  A1 088  A2 096  A2 096  A1 096  B1
-23606189   F POOJA BEHERA                                        301     027     029     037     028     049      A1 A2 A1    PASS                      
-                                                                 096  A1 088  A1 092  A1 097  A2 090  A1 100  A1
-23606190   M PRAGYANAND TIWARI                                   301     302     029     027     028     048      B2 A1 A2    PASS                      
-                                                                 083  B1 082  B2 063  C1 073  B1 085  A2 075  C1
+32108993   M HARSH MISHRA                                       184    002    041    086    087           165     PASS                      
+                                                                078    068    036    046    065           081   
+32108994   F JENA ARYA                                          184    002    087    086    241           165     PASS                      
+                                                                086    079    079    055    049           084   
+32108995   F KASHIKA PANDEY                                     184    002    041    086    087           165     PASS                      
+                                                                091    093    047    076    082           092   
+32108996   F KHYATI TULSANI                                     184    002    087    086    241           165     PASS                      
+                                                                085    080    090    059    052           089   
+32108997   M KUNWAR YUVRAJ SINGH                                184    002    041    086    087           165     PASS                      
+                                                                093    084    034    057    084           087   
+32108998   M MOHD AZHAN SHAHID ANSARI                           184    002    041    086    087           165     PASS                      
+                                                                087    083    067    090    087           097   
+32108999   M MOHD HANZLA ANSARI                                 184    002    087    086    241           165     PASS                      
+                                                                085    074    087    078    070           085   
+32109000   M MOHD TALHA ANSARI                                  184    002    087    086    241           165     PASS                      
+                                                                066    055    050    040    042           066   
+32109001   F NANDINI                                            184    002    041    086    087           165     PASS                      
+                                                                093    085    065    082    081           100   
 
-DATE:- 13-05-2025    C.B.S.E. - SENIOR SCHOOL CERTIFICATE EXAMINATION (MAIN)-2025      REGION: PRAYAGRAJ         PAGE:-       7
+DATE:- 15-04-2026    C.B.S.E. - ALL INDIA SECONDARY SCHOOL EXAMINATION (MAIN)-2026      REGION: LUCKNOW         PAGE:-       7
                                                 ***** (SCHOOL / ROLL NO WISE GAZETTE) *****
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-ROLL    F S NAME OF CANDIDATE                                   --------------------SUBJECTS------------------  INT-SB-GRD   RES                COMP
-NO      L X                                                     SUB CD  SUB CD  SUB CD  SUB CD  SUB CD  SUB CD  GR1 GR2 GR3                     SUB
-                                                                MKS GR  MKS GR  MKS GR  MKS GR  MKS GR  MKS GR 
+ROLL    F S NAME OF CANDIDATE                                   -----------------SUBJECTS-----------------------  RESULT            COMP
+NO      L X                                                     SUB CD SUB CD SUB CD SUB CD SUB CD SUB CD SUB CD                    SUB
+                                                                MKS GR MKS GR MKS GR MKS GR MKS GR MKS GR MKS GR
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
 SCHOOL : - 70361   J B ACADEMY VISHNUPURI AYODHYA UP                           
 
-23606191   M PRANSHU SINGH                                       301     027     029     037     028     048      A2 A2 A2    PASS                      
-                                                                 067  C2 080  A2 072  B2 083  B2 072  B1 091  A1
-23606192   M SAKSHAM SINGH                                       301     027     029     028     048     302      A2 A2 A2    PASS                      
-                                                                 078  B2 066  B2 068  C1 078  A2 072  C1 075  C1
+32109002   M PRABAL RASTOGI                                     184    002    041    086    087           165     PASS                      
+                                                                093    090    077    088    093           096   
 
-23606193   F SAMRIDHI                                            301     027     029     037     083     049      A1 A2 A2    PASS                      
-                                                                 088  A2 080  A2 078  B1 092  B1 064  C2 100  A1
-23606194   M SAYED MOHD FAYEZ                                    301     027     029     037     028     844      A1 A2 A1    PASS                      
-                                                                 081  B2 065  B2 074  B2 079  C1 079  A2 084  C2
-23606195   M SHIVAM KEWLANI                                      301     027     029     037     028     034      B2 A2 A2    PASS                      
-                                                                 077  B2 082  A2 063  C1 077  C1 081  A2 086  C1
-23606196   M SHIVANSH SINGH                                      301     027     029     028     034     302      B1 A2 A2    PASS                      
-                                                                 072  C1 073  B1 068  C1 064  B2 086  C1 070  C2
-23606197   F SIYA PANDEY                                         301     027     029     037     028     844      A2 A2 A1    PASS                      
-                                                                 093  A1 094  A1 082  A2 092  B1 095  A1 091  C1
-23606198   F SWARA DWIVEDI                                       301     027     029     037     028     844      A1 A2 A1    PASS                      
-                                                                 098  A1 095  A1 094  A1 096  A2 097  A1 098  A2
-23606199   F VAISHNAVI                                           301     027     029     037     028     049      A2 A2 A1    PASS                      
-                                                                 098  A1 087  A1 094  A1 098  A1 096  A1 100  A1
-23606200   F VEDIKA SRIVASTAVA                                   301     027     029     041     030     049      A1 A2 A1    PASS                      
-                                                                 095  A1 090  A1 096  A1 053  C1 094  A1 100  A1
-23606201   F YAGYA SINGH                                         301     027     029     037     028     836      A1 A1 A1    PASS                      
-                                                                 095  A1 096  A1 090  A1 076  C2 094  A1 091  A2
-23606202   F ZOHA FATMA                                          301     027     029     037     028     844      A1 A2 A1    PASS                      
-                                                                 097  A1 090  A1 100  A1 100  A1 099  A1 098  A2
+32109003   M PRARABDH YADUVANSHI                                184    002    041    086    087           165     PASS                      
+                                                                095    085    083    095    098           099   
+32109004   M PRATYUSH RASTOGI                                   184    002    041    086    087           165     PASS                      
+                                                                091    082    065    084    077           089   
+32109005   F SATAKSHI SRIVASTAVA                                184    002    041    086    087           165     PASS                      
+                                                                100    098    080    097    096           099   
+32109006   M SATVIK CHAURASIA                                   184    002    087    086    241           165     PASS                      
+                                                                079    066    075    048    040           078   
+32109007   M SHAURYA AGARWAL                                    184    002    041    086    087           165     PASS                      
+                                                                095    096    085    093    096           099   
+32109008   M SHAURYA VARDHAN SINGH                              184    002    087    086    241           165     PASS                      
+                                                                079    073    061    046    035           068   
+32109009   F SHEJAL YADAV                                       184    002    041    086    087           165     PASS                      
+                                                                085    082    085    085    088           092   
+32109010   M SHREED BANSAL                                      184    002    041    086    087           165     PASS                      
+                                                                095    090    082    094    084           098   
+32109011   M SWASTIK PANDEY                                     184    002    041    086    087           165     PASS                      
+                                                                063    069    047    052    075           067   
+32109012   M TANMAY PANDEY                                      184    002    041    086    087           165     PASS                      
+                                                                080    089    091    097    091           098   
+
+32109013   M TEJAS SINGH                                        184    002    087    086    241           165     PASS                      
+                                                                072    070    066    051    036           069   
+32109014   F TISHYA DHRUVEE                                     184    002    087    086    241           165     PASS                      
+                                                                095    095    094    094    077           098   
+32109015   F VAISHNAVI SINGH                                    184    002    041    086    087           165     PASS                      
+                                                                091    070    043    082    093           091   
+32109016   M VARDAAN AGRAWAL                                    184    002    041    086    087           165     PASS                      
+                                                                092    094    078    094    085           099   
+32109017   F VIDUSHI SEHTA                                      184    002    087    086    241           165     PASS                      
+                                                                086    073    077    059    070           082   
+32109018   M YASH JAIN                                          184    002    041    086    087           165     PASS                      
+                                                                083    079    073    089    085           092   
+32109019   M YUVRAJ SINGH                                       184    002    087    086    241           165     PASS                      
+                                                                070    044    059    046    054           076   
 
 
-
-TOTAL CANDIDATES :   150 TOTAL PASS :   149 TOTAL COMPTT. :     1 TOTAL ESSENTIAL REPEAT :     0 TOTAL ABSENT :     0
+TOTAL CANDIDATES :   156 TOTAL PASS :   151 TOTAL COMPTT. :     5 TOTAL ESSENTIAL REPEAT :     0 TOTAL ABSENT :     0

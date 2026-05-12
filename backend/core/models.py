@@ -17,12 +17,19 @@ class Student:
     result_status : str = "PASS"
 
     def total_marks(self) -> int:
-        return sum(sub.marks for sub in self.subjects)
+        marks = [sub.marks for sub in self.subjects]
+        return sum(sorted(marks, reverse=True)[:5])
     
     def percentage(self) -> float:
         if not self.subjects:
             return 0.0
-        return round(self.total_marks() / len(self.subjects), 2)
+
+        marks = [sub.marks for sub in self.subjects]
+
+        # BEST 5 ONLY
+        best_five = sorted(marks, reverse=True)[:5]
+
+        return round(sum(best_five) / 5, 2)
     
 @dataclass
 class ResultSummary:
