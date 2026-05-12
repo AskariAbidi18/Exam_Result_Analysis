@@ -45,4 +45,3 @@ def validate_marks(subject_codes, marks, roll_no):
         )
 
     return valid
-    
