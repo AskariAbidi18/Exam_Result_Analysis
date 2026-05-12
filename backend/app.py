@@ -1,4 +1,3 @@
-from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.responses import FileResponse, StreamingResponse
 from fastapi.middleware.cors import CORSMiddleware
 import uuid, os, shutil
@@ -16,6 +15,14 @@ from backend.reports.result_list_writer import generate_result_sheet
 from backend.main import auto_width
 
 from openpyxl import Workbook
+
+from fastapi import (
+    FastAPI,
+    UploadFile,
+    File,
+    HTTPException,
+    Form
+)
 
 app = FastAPI()
 
@@ -36,7 +43,10 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 
 @app.post("/generate-report")
-async def generate_report(file: UploadFile = File(...)):
+async def generate_report(
+    file: UploadFile = File(...),
+    exam_type: str = Form(...)
+    ):
     try:
         # Validate file type
         if not file.filename.endswith('.txt'):
@@ -55,7 +65,10 @@ async def generate_report(file: UploadFile = File(...)):
 
         try:
             # Run pipeline
-            students = parse_raw_data(tmp_path)
+            students = parse_raw_data(
+                tmp_path,
+                exam_type
+            )
             print(f"Parsed {len(students)} students")
 
             wb = Workbook()
