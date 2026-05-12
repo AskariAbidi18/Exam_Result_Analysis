@@ -1,94 +1,15 @@
-import re
-from typing import List
-from backend.core.models import Student, SubjectResult
+from backend.parsers.class10_parser import parse_class10
+from backend.parsers.class12_parser import parse_class12
 
 
-def parse_raw_data(file_path: str) -> List[Student]:
-    with open(file_path, "r", encoding="utf-8") as file:
-        lines = file.readlines()
+def parse_raw_data(file_path: str, exam_type: str = "10"):
 
-    students: List[Student] = []
-    i = 0
+    if exam_type == "10":
+        return parse_class10(file_path)
 
-    while i < len(lines):
-        line = lines[i].rstrip("\n")
+    elif exam_type == "12":
+        return parse_class12(file_path)
 
-        # detect student line
-        if re.match(r"^\d{8}", line):
-
-            # -------- BASIC INFO --------
-            roll_no = line[:8].strip()
-            gender = line[8:12].strip()
-
-            # find subject positions
-            matches = list(re.finditer(r"\b\d{3}\b", line))
-            matches = [m for m in matches if m.start() > 15]
-
-            if not matches:
-                i += 1
-                continue
-
-            # name
-            name = line[12:matches[0].start()].strip()
-
-            # -------- SUBJECT CODES --------
-            nums = [m.group() for m in matches]
-
-            # ✅ CLASS 10 FIX: 5 main + last subject (165 column)
-            if len(nums) >= 6:
-                subject_codes = nums[:5] + [nums[-1]]
-            else:
-                subject_codes = nums
-
-            # -------- RESULT --------
-            result_match = re.search(
-                r"(PASS|COMP|COMPTT|COMPARTMENT|ESSENTIAL REPEAT|ABSENT)",
-                line
-            )
-            result_status = result_match.group(1) if result_match else "UNKNOWN"
-
-            # -------- MARKS --------
-            if i + 1 >= len(lines):
-                break
-
-            marks_line = lines[i + 1].strip()
-            marks = list(map(int, re.findall(r"\b\d{2,3}\b", marks_line)))
-
-            # ✅ same structure as subjects
-            if len(marks) >= 6:
-                marks = marks[:5] + [marks[-1]]
-            else:
-                marks = marks[:len(subject_codes)]
-
-            # DEBUG (remove after testing)
-            print("DEBUG ->", subject_codes, marks)
-
-            # -------- BUILD SUBJECTS --------
-            subjects: List[SubjectResult] = []
-
-            for code, mark in zip(subject_codes, marks):
-                subjects.append(
-                    SubjectResult(
-                        subject_code=code,
-                        subject_name=None,
-                        marks=mark,
-                        grade="NA"
-                    )
-                )
-
-            # -------- SAVE STUDENT --------
-            students.append(
-                Student(
-                    roll_no=roll_no,
-                    name=name,
-                    gender=gender,
-                    subjects=subjects,
-                    result_status=result_status,
-                )
-            )
-
-            i += 1  # skip marks line
-
-        i += 1
-
-    return students
+    else:
+        raise ValueError("Invalid exam type")
+    
