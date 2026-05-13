@@ -18,7 +18,7 @@ SUBJECT_MAP = {
     "302": "Hindi Core",
     "028": "Political Science",
     "037": "Psychology",
-    "036": "Legal Studies",
+    "036": "Hindustani Music Percussion",
     "034": "Hindustani Music",
     "055": "Accountancy",
     "054": "Business Studies",
@@ -27,6 +27,10 @@ SUBJECT_MAP = {
     "029": "Geography",
     "844": "Artificial Intelligence",
     "836": "Multimedia",
+    "802": "Information Technology",
+    "809": "Food Production",
+    "811": "Banking",
+    "822": "Taxation",
 }
 
 MAIN_SUBJECTS = {

@@ -75,7 +75,11 @@ async def generate_report(
             wb.remove(wb.active)
 
             result_ws = wb.create_sheet("Result")
-            generate_result_sheet(result_ws, students)
+            generate_result_sheet(
+                result_ws,
+                students,
+                exam_type
+            )
 
             analysis_ws = wb.create_sheet("Analysis")
 

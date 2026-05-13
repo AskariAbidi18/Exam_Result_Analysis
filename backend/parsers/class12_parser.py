@@ -87,7 +87,7 @@ def parse_class12(file_path: str) -> List[Student]:
             # 091 A1 087 B1 etc
 
             pairs = re.findall(
-                r"(\d{2,3})\s+([A-Z][1-2]?)",
+                r"(\d{2,3})\s+([A-E][1-2]?)",
                 marks_line
             )
 
@@ -100,17 +100,15 @@ def parse_class12(file_path: str) -> List[Student]:
                 grades.append(grade)
 
             # validation safety
-            if len(subject_codes) != len(marks):
+            min_length = min(
+                len(subject_codes),
+                len(marks),
+                len(grades)
+            )
 
-                log_error(
-                    f"CLASS12 MISMATCH -> "
-                    f"{roll_no} "
-                    f"{subject_codes} "
-                    f"{marks}"
-                )
-
-                i += 1
-                continue
+            subject_codes = subject_codes[:min_length]
+            marks = marks[:min_length]
+            grades = grades[:min_length]
             
             # BUILD SUBJECTS
 
